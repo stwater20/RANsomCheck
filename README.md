@@ -20,4 +20,4 @@ Experimental results validate the model's reliability and effectiveness in ranso
 
 ## Additional Resources
 
-- **Cuckoo Sandbox Installation and Usage Guide**: [HackMD Documentation](https://hackmd.io/@kiri487/112senior_project/https%3A%2F%2Fhackmd.io%2F%40jdcoj%2FBJLoyoQ7C)
+- **Cuckoo Sandbox Installation and Usage Guide**: [HackMD Documentation](https://hackmd.io/@jdcoj/BJLoyoQ7C)

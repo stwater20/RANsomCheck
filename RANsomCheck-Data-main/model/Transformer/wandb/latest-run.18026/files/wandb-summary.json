@@ -1,0 +1,1 @@
+{"Step Loss": 0.0009667749982327223, "_timestamp": 1716008938.9027064, "_runtime": 188.8162853717804, "_step": 1050, "Test Accuracy": 1.0, "Test Precision": 1.0, "Test Recall": 1.0, "Test F1": 1.0, "Epoch Loss": 0.004127424390410241, "Epoch Accuracy": 1.0, "Epoch Precision": 1.0, "Epoch Recall": 1.0, "Epoch F1": 1.0, "_wandb": {"runtime": 188}}

@@ -1,0 +1,88 @@
+{
+    "os": "Linux-4.15.0-142-generic-x86_64-with-debian-stretch-sid",
+    "python": "3.7.16",
+    "heartbeatAt": "2024-04-15T09:46:55.616276",
+    "startedAt": "2024-04-15T09:46:54.967584",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "model_wandb.py",
+    "codePathLocal": "model_wandb.py",
+    "codePath": "model_Transformer/model_wandb.py",
+    "git": {
+        "remote": "https://github.com/friendllcc/Malware-Detection-API-Sequence-Intrinsic-Features.git",
+        "commit": "c19c567d85131785397199d930eb8e2106b117b0"
+    },
+    "email": null,
+    "root": "/home/ubuntu/Desktop/project/Malware-Detection-API-Sequence-Intrinsic-Features",
+    "host": "ubuntu-16",
+    "username": "ubuntu",
+    "executable": "/home/ubuntu/anaconda3/envs/wandb/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1999.5265000000002,
+        "min": 800.0,
+        "max": 5500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1599.253,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 3956.905,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 1627.21,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 1907.937,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 2114.359,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 2061.518,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 1305.164,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 1423.866,
+            "min": 800.0,
+            "max": 5500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1876.2362022399902,
+            "used": 418.76263427734375
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 15.412822723388672
+    }
+}

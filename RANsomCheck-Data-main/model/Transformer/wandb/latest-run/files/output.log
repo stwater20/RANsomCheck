@@ -1,0 +1,59 @@
+
+Epoch: 001, Loss: 0.65631, Train Acc: 0.79027, Train Precision: 0.98849, Train Recall: 0.53661, Train F1: 0.69560
+Epoch: 002, Loss: 0.57534, Train Acc: 0.93421, Train Precision: 0.93213, Train Recall: 0.91964, Train F1: 0.92584
+Epoch: 003, Loss: 0.45697, Train Acc: 0.94378, Train Precision: 0.96398, Train Recall: 0.90804, Train F1: 0.93517
+Epoch: 004, Loss: 0.33052, Train Acc: 0.95813, Train Precision: 0.93265, Train Recall: 0.97679, Train F1: 0.95421
+Epoch: 005, Loss: 0.23926, Train Acc: 0.97408, Train Precision: 0.95671, Train Recall: 0.98661, Train F1: 0.97143
+Epoch: 006, Loss: 0.16204, Train Acc: 0.98126, Train Precision: 0.98817, Train Recall: 0.96964, Train F1: 0.97882
+Epoch: 007, Loss: 0.11599, Train Acc: 0.99003, Train Precision: 0.98753, Train Recall: 0.99018, Train F1: 0.98885
+Epoch: 008, Loss: 0.07997, Train Acc: 0.99282, Train Precision: 0.98589, Train Recall: 0.99821, Train F1: 0.99201
+Epoch: 009, Loss: 0.05903, Train Acc: 0.99442, Train Precision: 0.98852, Train Recall: 0.99911, Train F1: 0.99378
+Epoch: 010, Loss: 0.04365, Train Acc: 0.99761, Train Precision: 0.99467, Train Recall: 1.00000, Train F1: 0.99733
+Epoch: 011, Loss: 0.03423, Train Acc: 0.99721, Train Precision: 0.99643, Train Recall: 0.99732, Train F1: 0.99688
+Epoch: 012, Loss: 0.02707, Train Acc: 0.99841, Train Precision: 0.99644, Train Recall: 1.00000, Train F1: 0.99822
+Epoch: 013, Loss: 0.02096, Train Acc: 0.99920, Train Precision: 0.99822, Train Recall: 1.00000, Train F1: 0.99911
+Epoch: 014, Loss: 0.01578, Train Acc: 0.99880, Train Precision: 0.99733, Train Recall: 1.00000, Train F1: 0.99866
+Epoch: 015, Loss: 0.01388, Train Acc: 0.99960, Train Precision: 0.99911, Train Recall: 1.00000, Train F1: 0.99955
+Epoch: 016, Loss: 0.01135, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 017, Loss: 0.01189, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 018, Loss: 0.00797, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 019, Loss: 0.00756, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 020, Loss: 0.00711, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 021, Loss: 0.00521, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 022, Loss: 0.00486, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 023, Loss: 0.00450, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 024, Loss: 0.00397, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 025, Loss: 0.00395, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 026, Loss: 0.00355, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 027, Loss: 0.00296, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 028, Loss: 0.00220, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 029, Loss: 0.00276, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 030, Loss: 0.00200, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 031, Loss: 0.00189, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 032, Loss: 0.00189, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 033, Loss: 0.00202, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 034, Loss: 0.00129, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 035, Loss: 0.00132, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 036, Loss: 0.00144, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 037, Loss: 0.00121, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 038, Loss: 0.00134, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 039, Loss: 0.00109, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 040, Loss: 0.00137, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 041, Loss: 0.00100, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 042, Loss: 0.00076, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 043, Loss: 0.00076, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 044, Loss: 0.00103, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 045, Loss: 0.00102, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 046, Loss: 0.00084, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 047, Loss: 0.00062, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 048, Loss: 0.00078, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 049, Loss: 0.00060, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+Epoch: 050, Loss: 0.00044, Train Acc: 1.00000, Train Precision: 1.00000, Train Recall: 1.00000, Train F1: 1.00000
+==================================
+Test result:
+Accuracy: 0.9990697674418605
+Precision: 0.9978448275862069
+Recall: 1.0
+F1 Score: 0.9989212513484358
+[[611   1]
+ [  0 463]]

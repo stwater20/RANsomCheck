@@ -1,0 +1,180 @@
+2024-05-18 12:21:51,658 INFO    StreamThr :10946 [internal.py:wandb_internal():85] W&B internal server running at pid: 10946, started at: 2024-05-18 12:21:51.657714
+2024-05-18 12:21:51,661 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: status
+2024-05-18 12:21:51,662 INFO    WriterThread:10946 [datastore.py:open_for_write():87] open: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/run-wfx6sy4t.wandb
+2024-05-18 12:21:51,662 DEBUG   SenderThread:10946 [sender.py:send():378] send: header
+2024-05-18 12:21:51,662 DEBUG   SenderThread:10946 [sender.py:send():378] send: run
+2024-05-18 12:21:52,175 INFO    SenderThread:10946 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files
+2024-05-18 12:21:52,176 INFO    SenderThread:10946 [sender.py:_start_run_threads():1123] run started: wfx6sy4t with start time 1716006111.657622
+2024-05-18 12:21:52,179 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: check_version
+2024-05-18 12:21:52,180 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: check_version
+2024-05-18 12:21:52,327 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: run_start
+2024-05-18 12:21:52,363 DEBUG   HandlerThread:10946 [system_info.py:__init__():26] System info init
+2024-05-18 12:21:52,363 DEBUG   HandlerThread:10946 [system_info.py:__init__():41] System info init done
+2024-05-18 12:21:52,363 INFO    HandlerThread:10946 [system_monitor.py:start():194] Starting system monitor
+2024-05-18 12:21:52,364 INFO    SystemMonitor:10946 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-18 12:21:52,364 INFO    HandlerThread:10946 [system_monitor.py:probe():214] Collecting system info
+2024-05-18 12:21:52,365 INFO    SystemMonitor:10946 [interfaces.py:start():188] Started cpu monitoring
+2024-05-18 12:21:52,366 INFO    SystemMonitor:10946 [interfaces.py:start():188] Started disk monitoring
+2024-05-18 12:21:52,366 INFO    SystemMonitor:10946 [interfaces.py:start():188] Started gpu monitoring
+2024-05-18 12:21:52,367 INFO    SystemMonitor:10946 [interfaces.py:start():188] Started memory monitoring
+2024-05-18 12:21:52,367 INFO    SystemMonitor:10946 [interfaces.py:start():188] Started network monitoring
+2024-05-18 12:21:52,375 DEBUG   HandlerThread:10946 [system_info.py:probe():150] Probing system
+2024-05-18 12:21:52,376 DEBUG   HandlerThread:10946 [gitlib.py:_init_repo():56] git repository is invalid
+2024-05-18 12:21:52,376 DEBUG   HandlerThread:10946 [system_info.py:probe():198] Probing system done
+2024-05-18 12:21:52,376 DEBUG   HandlerThread:10946 [system_monitor.py:probe():223] {'os': 'Linux-4.15.0-142-generic-x86_64-with-glibc2.23', 'python': '3.11.0', 'heartbeatAt': '2024-05-18T04:21:52.375897', 'startedAt': '2024-05-18T04:21:51.654416', 'docker': None, 'cuda': '10.0.130', 'args': (), 'state': 'running', 'program': '/home/ubuntu/project/model/Transformer/./model_wandb.py', 'codePathLocal': 'model_wandb.py', 'codePath': 'model_wandb.py', 'host': 'ubuntu-islab', 'username': 'ubuntu', 'executable': '/home/ubuntu/anaconda3/envs/project/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1831.446625, 'min': 800.0, 'max': 5500.0}, 'cpu_freq_per_core': [{'current': 1754.157, 'min': 800.0, 'max': 5500.0}, {'current': 2065.761, 'min': 800.0, 'max': 5500.0}, {'current': 1408.103, 'min': 800.0, 'max': 5500.0}, {'current': 1900.602, 'min': 800.0, 'max': 5500.0}, {'current': 1903.628, 'min': 800.0, 'max': 5500.0}, {'current': 2030.845, 'min': 800.0, 'max': 5500.0}, {'current': 1422.598, 'min': 800.0, 'max': 5500.0}, {'current': 2165.879, 'min': 800.0, 'max': 5500.0}], 'disk': {'/': {'total': 1876.2362022399902, 'used': 94.16919326782227}}, 'gpu': 'NVIDIA GeForce RTX 3060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060', 'memory_total': 12884901888}], 'memory': {'total': 15.412822723388672}}
+2024-05-18 12:21:52,376 INFO    HandlerThread:10946 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-18 12:21:52,376 INFO    HandlerThread:10946 [system_monitor.py:probe():227] Publishing system info
+2024-05-18 12:21:52,377 DEBUG   HandlerThread:10946 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-18 12:21:53,176 INFO    Thread-12 :10946 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/conda-environment.yaml
+2024-05-18 12:21:53,743 DEBUG   HandlerThread:10946 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-18 12:21:53,744 INFO    HandlerThread:10946 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-18 12:21:53,745 DEBUG   SenderThread:10946 [sender.py:send():378] send: files
+2024-05-18 12:21:53,745 INFO    SenderThread:10946 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-18 12:21:53,771 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-18 12:21:53,771 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: python_packages
+2024-05-18 12:21:53,771 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-18 12:21:53,771 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: stop_status
+2024-05-18 12:21:53,985 DEBUG   SenderThread:10946 [sender.py:send():378] send: telemetry
+2024-05-18 12:21:53,987 DEBUG   SenderThread:10946 [sender.py:send():378] send: exit
+2024-05-18 12:21:53,987 INFO    SenderThread:10946 [sender.py:send_exit():585] handling exit code: 1
+2024-05-18 12:21:53,987 INFO    SenderThread:10946 [sender.py:send_exit():587] handling runtime: 1
+2024-05-18 12:21:53,988 INFO    SenderThread:10946 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-18 12:21:53,988 INFO    SenderThread:10946 [sender.py:send_exit():593] send defer
+2024-05-18 12:21:53,989 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:53,989 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-18 12:21:53,989 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:53,990 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-18 12:21:53,990 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 1
+2024-05-18 12:21:53,990 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:53,990 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-18 12:21:53,991 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:53,991 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-18 12:21:53,991 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 2
+2024-05-18 12:21:53,991 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:53,991 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-18 12:21:53,992 INFO    HandlerThread:10946 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-18 12:21:53,992 DEBUG   SystemMonitor:10946 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-18 12:21:53,992 DEBUG   SystemMonitor:10946 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-18 12:21:53,992 DEBUG   SystemMonitor:10946 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-18 12:21:53,993 INFO    HandlerThread:10946 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-18 12:21:53,995 INFO    HandlerThread:10946 [interfaces.py:finish():200] Joined disk monitor
+2024-05-18 12:21:54,019 INFO    HandlerThread:10946 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-18 12:21:54,019 INFO    HandlerThread:10946 [interfaces.py:finish():200] Joined memory monitor
+2024-05-18 12:21:54,019 INFO    HandlerThread:10946 [interfaces.py:finish():200] Joined network monitor
+2024-05-18 12:21:54,019 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:54,019 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-18 12:21:54,019 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 3
+2024-05-18 12:21:54,019 DEBUG   SenderThread:10946 [sender.py:send():378] send: stats
+2024-05-18 12:21:54,019 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:54,019 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-18 12:21:54,019 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:54,020 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-18 12:21:54,020 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 4
+2024-05-18 12:21:54,020 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:54,020 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-18 12:21:54,020 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:54,020 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-18 12:21:54,020 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 5
+2024-05-18 12:21:54,020 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:54,020 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-18 12:21:54,020 DEBUG   SenderThread:10946 [sender.py:send():378] send: summary
+2024-05-18 12:21:54,020 INFO    SenderThread:10946 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-18 12:21:54,020 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:54,020 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-18 12:21:54,020 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 6
+2024-05-18 12:21:54,020 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:54,020 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-18 12:21:54,020 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:54,020 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-18 12:21:54,022 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: status_report
+2024-05-18 12:21:54,176 INFO    Thread-12 :10946 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/conda-environment.yaml
+2024-05-18 12:21:54,176 INFO    Thread-12 :10946 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/output.log
+2024-05-18 12:21:54,177 INFO    Thread-12 :10946 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/requirements.txt
+2024-05-18 12:21:54,177 INFO    Thread-12 :10946 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/wandb-metadata.json
+2024-05-18 12:21:54,177 INFO    Thread-12 :10946 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/wandb-summary.json
+2024-05-18 12:21:54,240 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 7
+2024-05-18 12:21:54,241 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:54,241 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 7
+2024-05-18 12:21:54,242 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:54,242 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-05-18 12:21:54,503 INFO    wandb-upload_0:10946 [upload_job.py:push():130] Uploaded file /tmp/tmp8fp1l3gywandb/gkghi81r-wandb-metadata.json
+2024-05-18 12:21:54,774 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-18 12:21:55,177 INFO    Thread-12 :10946 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/config.yaml
+2024-05-18 12:21:55,990 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 8
+2024-05-18 12:21:55,990 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: poll_exit
+2024-05-18 12:21:55,991 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:55,991 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 8
+2024-05-18 12:21:55,992 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:55,992 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-05-18 12:21:55,992 INFO    SenderThread:10946 [job_builder.py:build():432] Attempting to build job artifact
+2024-05-18 12:21:55,992 INFO    SenderThread:10946 [job_builder.py:_get_source_type():576] no source found
+2024-05-18 12:21:55,992 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 9
+2024-05-18 12:21:55,992 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:55,992 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 9
+2024-05-18 12:21:55,993 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:55,993 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-05-18 12:21:55,993 INFO    SenderThread:10946 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-18 12:21:56,177 INFO    Thread-12 :10946 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/output.log
+2024-05-18 12:21:56,178 INFO    SenderThread:10946 [dir_watcher.py:finish():388] scan: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files
+2024-05-18 12:21:56,179 INFO    SenderThread:10946 [dir_watcher.py:finish():402] scan save: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/conda-environment.yaml conda-environment.yaml
+2024-05-18 12:21:56,179 INFO    SenderThread:10946 [dir_watcher.py:finish():402] scan save: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/config.yaml config.yaml
+2024-05-18 12:21:56,179 INFO    SenderThread:10946 [dir_watcher.py:finish():402] scan save: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/requirements.txt requirements.txt
+2024-05-18 12:21:56,179 INFO    SenderThread:10946 [dir_watcher.py:finish():402] scan save: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/wandb-metadata.json wandb-metadata.json
+2024-05-18 12:21:56,180 INFO    SenderThread:10946 [dir_watcher.py:finish():402] scan save: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/output.log output.log
+2024-05-18 12:21:56,180 INFO    SenderThread:10946 [dir_watcher.py:finish():402] scan save: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/wandb-summary.json wandb-summary.json
+2024-05-18 12:21:56,180 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 10
+2024-05-18 12:21:56,188 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:56,188 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 10
+2024-05-18 12:21:56,197 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:56,197 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-05-18 12:21:56,200 INFO    SenderThread:10946 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-18 12:21:56,664 INFO    wandb-upload_1:10946 [upload_job.py:push():130] Uploaded file /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/conda-environment.yaml
+2024-05-18 12:21:56,697 INFO    wandb-upload_2:10946 [upload_job.py:push():130] Uploaded file /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/config.yaml
+2024-05-18 12:21:56,727 INFO    wandb-upload_0:10946 [upload_job.py:push():130] Uploaded file /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/wandb-summary.json
+2024-05-18 12:21:56,731 INFO    wandb-upload_4:10946 [upload_job.py:push():130] Uploaded file /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/output.log
+2024-05-18 12:21:56,743 INFO    wandb-upload_3:10946 [upload_job.py:push():130] Uploaded file /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/files/requirements.txt
+2024-05-18 12:21:56,775 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-18 12:21:56,776 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: poll_exit
+2024-05-18 12:21:56,944 INFO    Thread-11 (_thread_body):10946 [sender.py:transition_state():613] send defer: 11
+2024-05-18 12:21:56,944 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:56,945 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 11
+2024-05-18 12:21:56,945 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:56,946 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-05-18 12:21:56,946 INFO    SenderThread:10946 [file_pusher.py:join():175] waiting for file pusher
+2024-05-18 12:21:56,946 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 12
+2024-05-18 12:21:56,947 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:56,947 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 12
+2024-05-18 12:21:56,948 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:56,948 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-05-18 12:21:56,948 INFO    SenderThread:10946 [file_stream.py:finish():601] file stream finish called
+2024-05-18 12:21:57,264 INFO    SenderThread:10946 [file_stream.py:finish():605] file stream finish is done
+2024-05-18 12:21:57,265 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 13
+2024-05-18 12:21:57,265 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:57,265 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 13
+2024-05-18 12:21:57,266 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:57,266 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-05-18 12:21:57,266 INFO    SenderThread:10946 [sender.py:transition_state():613] send defer: 14
+2024-05-18 12:21:57,266 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: defer
+2024-05-18 12:21:57,267 INFO    HandlerThread:10946 [handler.py:handle_request_defer():184] handle defer: 14
+2024-05-18 12:21:57,267 DEBUG   SenderThread:10946 [sender.py:send():378] send: final
+2024-05-18 12:21:57,268 DEBUG   SenderThread:10946 [sender.py:send():378] send: footer
+2024-05-18 12:21:57,268 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: defer
+2024-05-18 12:21:57,268 INFO    SenderThread:10946 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-05-18 12:21:57,269 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-18 12:21:57,270 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-18 12:21:57,271 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: poll_exit
+2024-05-18 12:21:57,271 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: poll_exit
+2024-05-18 12:21:57,272 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: server_info
+2024-05-18 12:21:57,273 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: get_summary
+2024-05-18 12:21:57,274 DEBUG   SenderThread:10946 [sender.py:send_request():405] send_request: server_info
+2024-05-18 12:21:57,277 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: sampled_history
+2024-05-18 12:21:57,278 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: internal_messages
+2024-05-18 12:21:57,473 INFO    MainThread:10946 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-18 12:21:57,473 INFO    MainThread:10946 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-18 12:21:57,473 INFO    MainThread:10946 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-05-18 12:21:57,474 DEBUG   HandlerThread:10946 [handler.py:handle_request():158] handle_request: shutdown
+2024-05-18 12:21:57,474 INFO    HandlerThread:10946 [handler.py:finish():882] shutting down handler
+2024-05-18 12:21:58,273 INFO    WriterThread:10946 [datastore.py:close():296] close: /home/ubuntu/project/model/Transformer/wandb/run-20240518_122151-wfx6sy4t/run-wfx6sy4t.wandb
+2024-05-18 12:21:58,472 INFO    SenderThread:10946 [sender.py:finish():1545] shutting down sender
+2024-05-18 12:21:58,473 INFO    SenderThread:10946 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-18 12:21:58,473 INFO    SenderThread:10946 [file_pusher.py:join():175] waiting for file pusher

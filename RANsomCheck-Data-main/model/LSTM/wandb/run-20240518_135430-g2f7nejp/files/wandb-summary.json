@@ -1,0 +1,1 @@
+{"Test Accuracy": 0.9962790697674418, "Test Precision": 1.0, "Test Recall": 0.9913606911447084, "Test F1": 0.9956616052060737, "_timestamp": 1716011841.9088707, "_runtime": 171.1804277896881, "_step": 100, "Epoch Loss": 0.0004995519669367776, "Epoch Accuracy": 1.0, "Epoch Precision": 1.0, "Epoch Recall": 1.0, "Epoch F1": 1.0, "_wandb": {"runtime": 170}}

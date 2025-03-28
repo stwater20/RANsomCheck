@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/project/model/Transformer/./model_wandb.py", line 113, in <module>
+    train_data = np.load('../dataset/report_dataset_train.npz', allow_pickle=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/anaconda3/envs/project/lib/python3.11/site-packages/numpy/lib/npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../dataset/report_dataset_train.npz'

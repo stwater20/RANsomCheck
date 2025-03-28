@@ -1,0 +1,1 @@
+{"Step Loss": 0.0005314999725669622, "_timestamp": 1728299016.7669973, "_runtime": 271.5259642601013, "_step": 3949, "Epoch": 50, "Loss": 0.000309934984607408, "Train Accuracy": 0.9975728155339806, "Train Precision": 0.9967506092607636, "Train Recall": 1.0, "Train F1": 0.9983726606997559, "_wandb": {"runtime": 270}}

@@ -1,0 +1,82 @@
+{
+    "os": "Linux-4.15.0-142-generic-x86_64-with-debian-stretch-sid",
+    "python": "3.7.16",
+    "heartbeatAt": "2024-10-07T11:29:55.634536",
+    "startedAt": "2024-10-07T11:29:54.212127",
+    "docker": null,
+    "cuda": "10.0.130",
+    "args": [],
+    "state": "running",
+    "program": "model_wandb.py",
+    "codePathLocal": "model_wandb.py",
+    "codePath": "model_wandb.py",
+    "host": "ubuntu-islab",
+    "username": "ubuntu",
+    "executable": "/home/ubuntu/anaconda3/envs/project/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2026.285375,
+        "min": 800.0,
+        "max": 5500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2226.5,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 3487.604,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 1434.728,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 3075.937,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 1382.175,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 1741.282,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 1942.643,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 919.414,
+            "min": 800.0,
+            "max": 5500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1876.2362022399902,
+            "used": 1559.760757446289
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 15.41375732421875
+    }
+}

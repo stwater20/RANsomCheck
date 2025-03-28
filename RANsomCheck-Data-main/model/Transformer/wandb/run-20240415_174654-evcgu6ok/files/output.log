@@ -1,0 +1,22 @@
+
+Epoch: 001, Loss: 0.66935, Train Acc: 0.56061, Train Precision: 0.87500, Train Recall: 0.01875, Train F1: 0.03671
+Epoch: 002, Loss: 0.58780, Train Acc: 0.93541, Train Precision: 0.96415, Train Recall: 0.88839, Train F1: 0.92472
+Epoch: 003, Loss: 0.47693, Train Acc: 0.96332, Train Precision: 0.96558, Train Recall: 0.95179, Train F1: 0.95863
+Epoch: 004, Loss: 0.34742, Train Acc: 0.96252, Train Precision: 0.97854, Train Recall: 0.93661, Train F1: 0.95712
+Epoch: 005, Loss: 0.23830, Train Acc: 0.97927, Train Precision: 0.96516, Train Recall: 0.98929, Train F1: 0.97707
+Epoch: 006, Loss: 0.16772, Train Acc: 0.97887, Train Precision: 0.98721, Train Recall: 0.96518, Train F1: 0.97607
+Epoch: 007, Loss: 0.12769, Train Acc: 0.99203, Train Precision: 0.98673, Train Recall: 0.99554, Train F1: 0.99111
+Epoch: 008, Loss: 0.09240, Train Acc: 0.99242, Train Precision: 0.98417, Train Recall: 0.99911, Train F1: 0.99158
+Epoch: 009, Loss: 0.06677, Train Acc: 0.99482, Train Precision: 0.99026, Train Recall: 0.99821, Train F1: 0.99422
+Epoch: 010, Loss: 0.05717, Train Acc: 0.99522, Train Precision: 0.99288, Train Recall: 0.99643, Train F1: 0.99465
+Epoch: 011, Loss: 0.04365, Train Acc: 0.99601, Train Precision: 0.99202, Train Recall: 0.99911, Train F1: 0.99555
+Traceback (most recent call last):
+  File "model_wandb.py", line 150, in <module>
+    loss = train(epoch, train_loader)
+  File "model_wandb.py", line 75, in train
+    loss.backward()
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/torch/_tensor.py", line 489, in backward
+    self, gradient, retain_graph, create_graph, inputs=inputs
+  File "/home/ubuntu/.local/lib/python3.7/site-packages/torch/autograd/__init__.py", line 199, in backward
+    allow_unreachable=True, accumulate_grad=True)  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

@@ -1,0 +1,34 @@
+2024-04-17 11:27:07,596 INFO    MainThread:9393 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-17 11:27:07,596 INFO    MainThread:9393 [wandb_setup.py:_flush():76] Configure stats pid to 9393
+2024-04-17 11:27:07,596 INFO    MainThread:9393 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/.config/wandb/settings
+2024-04-17 11:27:07,596 INFO    MainThread:9393 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/Desktop/project/Malware-Detection-API-Sequence-Intrinsic-Features/model_LSTM/wandb/settings
+2024-04-17 11:27:07,596 INFO    MainThread:9393 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-17 11:27:07,596 INFO    MainThread:9393 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-17 11:27:07,597 INFO    MainThread:9393 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'model_LSTM/model_wandb.py', 'program_abspath': '/home/ubuntu/Desktop/project/Malware-Detection-API-Sequence-Intrinsic-Features/model_LSTM/model_wandb.py', 'program': 'model_wandb.py'}
+2024-04-17 11:27:07,597 INFO    MainThread:9393 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-17 11:27:07,597 INFO    MainThread:9393 [wandb_init.py:_log_setup():521] Logging user logs to /home/ubuntu/Desktop/project/Malware-Detection-API-Sequence-Intrinsic-Features/model_LSTM/wandb/run-20240417_112707-erevlkst/logs/debug.log
+2024-04-17 11:27:07,597 INFO    MainThread:9393 [wandb_init.py:_log_setup():522] Logging internal logs to /home/ubuntu/Desktop/project/Malware-Detection-API-Sequence-Intrinsic-Features/model_LSTM/wandb/run-20240417_112707-erevlkst/logs/debug-internal.log
+2024-04-17 11:27:07,597 INFO    MainThread:9393 [wandb_init.py:init():561] calling init triggers
+2024-04-17 11:27:07,597 INFO    MainThread:9393 [wandb_init.py:init():569] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.0001, 'architecture': 'Net', 'dataset': 'Custom', 'epochs': 50}
+2024-04-17 11:27:07,597 INFO    MainThread:9393 [wandb_init.py:init():611] starting backend
+2024-04-17 11:27:07,597 INFO    MainThread:9393 [wandb_init.py:init():615] setting up manager
+2024-04-17 11:27:07,598 INFO    MainThread:9393 [backend.py:_multiprocessing_setup():107] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-17 11:27:07,599 INFO    MainThread:9393 [wandb_init.py:init():623] backend started and connected
+2024-04-17 11:27:07,602 INFO    MainThread:9393 [wandb_init.py:init():715] updated telemetry
+2024-04-17 11:27:07,616 INFO    MainThread:9393 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-17 11:27:08,140 INFO    MainThread:9393 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-17 11:27:08,895 INFO    MainThread:9393 [wandb_run.py:_on_init():2366] got version response 
+2024-04-17 11:27:08,895 INFO    MainThread:9393 [wandb_init.py:init():799] starting run threads in backend
+2024-04-17 11:27:09,502 INFO    MainThread:9393 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-17 11:27:09,503 INFO    MainThread:9393 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-17 11:27:09,503 INFO    MainThread:9393 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-17 11:27:09,503 INFO    MainThread:9393 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-17 11:27:09,503 INFO    MainThread:9393 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-17 11:30:02,061 INFO    MainThread:9393 [wandb_run.py:_finish():2064] finishing run ransomware-detection/model_LSTM/erevlkst
+2024-04-17 11:30:02,062 INFO    MainThread:9393 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2024-04-17 11:30:02,062 INFO    MainThread:9393 [wandb_run.py:_restore():2287] restore
+2024-04-17 11:30:02,062 INFO    MainThread:9393 [wandb_run.py:_restore():2293] restore done
+2024-04-17 11:30:09,606 INFO    MainThread:9393 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-04-17 11:30:09,607 INFO    MainThread:9393 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-04-17 11:30:09,610 INFO    MainThread:9393 [wandb_run.py:_footer_sync_info():3895] logging synced files

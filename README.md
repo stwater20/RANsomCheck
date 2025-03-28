@@ -1,16 +1,6 @@
 # RANsomCheck
 
-Ransomware attacks continue to evolve in complexity and sophistication, posing significant challenges to traditional detection methods. This project focuses on Windows Portable Executable (PE) files and employs dynamic analysis using Cuckoo Sandbox to generate execution reports, extracting API call sequences as key features for ransomware identification. 
-
-We propose a deep learning-based detection model to address the rapidly evolving ransomware landscape. Two numerical representation methods are applied to process API calls, including direct conversion and quadruple-based semantic representation, which capture deeper relationships between API calls. Feature extraction utilizes embedding and convolution techniques to capture semantic relationships and structural patterns within API call sequences, enhancing the model's ability to identify ransomware behavior accurately. The Transformer model also analyzes the dependencies within API sequences to improve detection accuracy.
-
-Our proposed model achieves:
-- **Accuracy**: 99.94%
-- **Precision**: 99.92%
-- **Recall**: 100%
-- **F1 Score**: 99.96%
-
-Experimental results validate the model's reliability and effectiveness in ransomware detection. Furthermore, the methodology is implemented on a Web platform built with TypeScript, React, and Python Flask, enabling seamless file uploads for security analysis.
+Ransomware attacks are becoming increasingly complex and sophisticated, posing significant challenges to traditional detection methods. This study focuses on Windows Portable Executable (PE) files and leverages dynamic analysis with Cuckoo Sandbox to generate execution reports, identifying critical features for ransomware detection through API call sequences. To address the rapidly evolving ransomware landscape, we propose a deep learning-based detection model that employs two numerical representation methods for processing API calls: direct conversion and a novel quadruple-based semantic representation, which effectively captures deeper relationships between API calls. Our approach integrates embedding and convolutional techniques to extract semantic relationships and structural patterns from API call sequences, enhancing the model's ability to recognize ransomware behaviors with high precision. Additionally, the Transformer model is employed to analyze sequence dependencies, further improving detection accuracy. The proposed model demonstrates remarkable performance, achieving an accuracy of 99.94%, precision of 99.92%, recall of 100%, and an F1 score of 99.96%, highlighting its reliability and effectiveness. Furthermore, we developed a web-based platform using TypeScript, React, and Python Flask, enabling seamless file uploads and comprehensive security analysis.
 
 ## Project Links
 
@@ -21,3 +11,13 @@ Experimental results validate the model's reliability and effectiveness in ranso
 ## Additional Resources
 
 - **Cuckoo Sandbox Installation and Usage Guide**: [HackMD Documentation](https://hackmd.io/@jdcoj/BJLoyoQ7C)
+
+## Citation
+
+```
+Sheng-Shan Chen, Yi-Xuan Wu, Ying-Xuan Ho, Pang-Po Cheng, and Chin-Yu Sun*, "RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences", Accepted by 38th International Conference on Industrial, Engineering & Other Applications of Applied Intelligent Systems (IEA/AIE 2025), March 2025.
+```
+
+## Acknowledgements
+
+Special thanks to [Han-Xuan Huang](https://github.com/ntut-xuan) for serving as an technical advisor and providing valuable assistance in system development.

@@ -14,9 +14,8 @@ Ransomware attacks are becoming increasingly complex and sophisticated, posing s
 
 ## Citation
 
-```
 Chen, S. S., Wu, Y. X., Ho, Y. X., Cheng, P. P., & Sun, C. Y. (2025, July). RANsomCheck: A CNN-Transformer Model for Malware Detection Based on API Call Sequences. In International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (pp. 116-127). Singapore: Springer Nature Singapore.
-```
+
 
 ## Acknowledgements
 
